@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="navbar"></div>
-    <div id="top_sec"></div>
+    <div id="top_sec">You searched for “”</div>
     <div id="second_sec">
         <div id="sort_sec">
             <div class="dropdown">
@@ -86,12 +86,20 @@
             </div>
         </div>
     </div>
+
+    <div id="sorting_and_filter_Div">
+        <select id="sortPriced" onchange="sortbyprice()">
+          <option value="">Sort by Price</option>
+          <!-- <option value="default">Default</option> -->
+          <option value="Low">Low to High</option>
+          <option value="High">High to Low</option>
+        </select>
+      </div>
     <div id="bottom_sec">
-        
-        
-
-
+    
     </div>
+
+    <div id="footer"> </div>
 </body>
 </html>
 <script src="./pp.js" type="module"> </script>

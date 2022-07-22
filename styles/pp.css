@@ -13,10 +13,8 @@
   .dropdown {
     position: relative;
     display: inline-block;
-    margin: 2px 20px 2px 20px;
-    justify-content: ;
-    
-
+    margin: 2px 20px 20px 20px;
+   
   }
   
   .dropdown-content {
@@ -42,18 +40,76 @@
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
   #sort_sec{
-    margin: 50px 135px 50px 135px;
+    margin: 20px 135px 0px 135px;
     border: 1px solid black;
-    display:flow-root
+    display:flow-root;
+    
+    
+  }
+  #top_sec{
+    font-size: 36px;
+    font-family: ProximaNova-Bold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: normal;
   }
 
   #second_sec{
-    background-color: rgb(247,248,247)
-
+    background-color: rgb(247,248,247);
+    border: 1px solid red;
+    
+  
   }
 
   #bottom_sec{
 
     display: grid;
     grid-template-columns: auto auto auto auto;
+  
+    padding-left: 135px;
+    padding-right: 135px;
+        
+  }
+  
+  
+#template{
+ height:100%;
+ border: 2px solid black;
+ 
+
+ }
+  #imgg{
+    width: 100%;
+    height: 350px;
+   
+    
+  }
+
+  #imggg{
+    height: 100%;
+    width: 100%;
+    margin:auto;
+  }
+  #nm{
+    white-space: normal;
+    
+  }
+
+  #sorting_and_filter_Div{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    padding-right: 135px;
+   
+    
+  }
+  #sorting_and_filter_Div select{
+  
+    width:200px;
+    height:40px;
+    border: 1px solid grey;
+    font-size: 14px;
+    font-family: "ProximaNova-Semibold","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+  
   }
