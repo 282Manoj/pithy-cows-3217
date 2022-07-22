@@ -1,0 +1,236 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<script src="https://kit.fontawesome.com/39dce68ee5.js" crossorigin="anonymous">
+</script>       
+</head>
+<style>
+    #container{
+
+     height:auto;
+     width: fit-content;
+     padding: 25px;
+     margin: auto;
+     /* border: 1px solid black; */
+     text-align:justify;
+     display: none;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+     scroll-margin-bottom: 7px;
+        
+     
+    }
+    #iconz{
+        position: absolute;
+        top:69px;
+        right: 511px;
+        height: 15px;
+        width: 15px;
+    }
+    #moby{
+        height: 48px;
+        width: 420px;
+        border: none;
+        outline: none;
+
+    }
+    #moby1{
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        /* padding: 5px; */
+        padding: 0px 5px;
+
+    }
+    #btn1{
+        height:auto;
+        width: 185px;
+        padding: 7px;
+        font-size: 14px;
+        color: wheat;
+        text-transform: uppercase;
+        background-color: blue;
+        /* float: right; */
+        margin-left: 300px;
+    }
+    #otppage{
+        
+     height:auto;
+     width: fit-content;
+     padding: 25px;
+     margin: auto;
+     /* border: 1px solid black; */
+     text-align:justify;
+     display: none;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+     scroll-margin-bottom: 7px;
+        
+
+    }
+    #link{
+        
+     height:auto;
+     width: fit-content;
+     padding: 25px;
+     margin: auto;
+     /* border: 1px solid black; */
+     text-align:justify;
+     display: none;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+     scroll-margin-bottom: 7px;
+    }
+    #proceed{
+        height:auto;
+        width: 185px;
+        padding: 7px;
+        font-size: 14px;
+        color: wheat;
+        text-transform: uppercase;
+        background-color: blue;
+        /* float: right; */
+        margin-left: 300px;
+
+
+    }
+    #address{
+        height:auto;
+     width: fit-content;
+     padding: 25px;
+     margin: auto;
+     /* border: 1px solid black; */
+     text-align:justify;
+     display: none;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+     text-overflow:clip;
+
+    }
+    #btn3{
+        height:auto;
+        width: 185px;
+        padding: 7px;
+        font-size: 14px;
+        color: wheat;
+        text-transform: uppercase;
+        background-color: blue;
+        /* margin-left: 300px; */
+        /* float: right; */
+
+    }
+    #login{
+        height:auto;
+     width: fit-content;
+     padding: 25px;
+     margin: auto;
+     /* border: 1px solid black; */
+     text-align:justify;
+     /* display: none; */
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+     text-overflow:clip;
+    }
+</style>
+<body>
+    <nav id="navbar">
+    </nav>
+    <button onclick="play()" id="btn">Sign Up/Sign In</button>
+       <br>
+       <br>
+  <div id="container">
+
+    <h1>Sign up or Sign in</h1>
+    <i id="iconz" class="fa-solid fa-circle-xmark"></i>
+
+    <p>Enjoy the convience of a single account across all participation 
+        brands
+    </p>
+   <b><p>Mobile Number</p></b>
+
+   <div id="moby1">
+    <p>+91|<input id="moby" type="number" placeholder="Enter your mobile number">
+    </p>
+   </div>
+   <p>By creating your account you agree to our <a href="#">Terms and Conditions</a></p>
+
+   <hr>
+   <p onclick="login()"> <a href="signin.html">  <u>If you already have account then Login>>></u></a>
+</p>
+   <button id="btn1">
+    CONTINUE
+   </button>
+
+
+
+
+
+
+  </div>
+
+
+
+  <div id="otppage">
+
+    <h1>Sign up or Sign in</h1>
+    <i id="iconz" class="fa-solid fa-circle-xmark"></i>
+
+    <p>Enjoy the convinience of a single account across all participation brands</p>
+    <h3>Verify with OTP</h3>
+
+    <p>sent to +916204989916  <span style="cursor: pointer;color:blue" onclick="play()">Change?</span> </p>
+
+
+    <input id="otps" type="number" placeholder="Enter OTP">
+    <button onclick="checkotp()" id="checkotp">Submit</button>
+
+
+    <!-- <p >Didn't get it? resend</p> -->
+
+
+
+
+
+  </div>
+
+
+
+  <div id="link"> 
+    <h1>Link your account</h1>
+    <!-- <p id="iconz">Skip</p> -->
+    <p>Existing User please login to your account to link your account 
+        to your phone number. it's one life time process
+    </p>
+    <input type="text" placeholder="Your Email">
+    <br>
+    <button onclick="proceed()" id="proceed">
+        proceed
+    </button>
+
+  </div>
+
+
+  <div id="address">
+     <h1>How do we address you?</h1>
+     <input id="fname" type="text" placeholder="First Name" required>
+     <input id="lname" type="text" placeholder="Last Name">
+     <br>
+     <p>     <input type="checkbox" required>Enroll me for Landmark Rewards
+     </p>
+     <p>By creating your account you agree to our <a href="#">Terms and Conditions</a></p>
+     <button onclick="back()"  id="btn3">go back</button> <button onclick="created()" id="btn3" >continue</button>
+  </div>
+
+<!-- 
+  <div id="login">
+    <h2>Login</h2>
+    <input type="number" name="" id="lmob" placeholder="Enter your mobile number">
+    <button onclick="notp()" id="#btn4">Request OTP</button>
+    
+
+
+  </div> -->
+
+
+</body>
+</html>
+<script src="signup.js" >
+
+</script>
