@@ -1,3 +1,4 @@
+
 * {
     padding: 0px;
     margin: 0px;
@@ -112,4 +113,133 @@ border-top:0.5px solid gray ;
 }
 #trend_down{
     margin-top:50px;
+}
+#gift{
+    width:85%;
+    margin:auto;
+    margin-top:100px;
+    border-top:0.5px solid gray;
+    margin-bottom:20px;
+}
+#gift_zone{
+    margin-top:50px;
+}
+#gift_zone>img{
+    width:100%;
+=======
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.crauser {
+    width: 85%;
+    margin:auto;
+    position: relative;
+    margin-top:10px;
+}
+
+.crauser>img {
+    width: 100%;
+}
+
+.crauser>button {
+    position: absolute;
+    top: 250px;
+    background-color: transparent;
+    border-radius: 100%;
+    color:black;
+    font-size: 30px;
+    width:50px;
+    height: 50px;
+    outline: none;
+    border:none;
+
+}
+
+.crauser>button:nth-child(2) {
+    left: -5%;
+}
+
+.crauser>button:nth-child(3) {
+    right: -5%;
+}
+.style{
+   width:86%;
+   margin:auto;
+   margin-top: 100px;
+   border-top:0.5px solid gray;
+
+}
+
+.style_box{
+    display: flex;
+    /* border:1px solid black; */
+    gap:2%;
+}
+.style_box>div{
+    width:50%;
+}
+.style_box>div>img{
+    width:100%;
+    /* border:1px solid blue; */
+}
+.box2{
+    width:85%;
+    margin:auto;
+}
+.spotlight{
+    margin-bottom:26px;
+    margin-top:50px;
+    font-weight: normal;
+}
+#box2{
+    /* border:1px solid red; */
+    width:85%;
+    margin:auto;
+    margin-top:100px;
+    border-top:0.5px solid gray ;
+}
+.grid_box{
+    display:grid;
+    
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows: auto;
+    gap:10px;
+    row-gap: 20px;
+}
+.card>img{
+    width:100%;
+}
+h3{
+    text-align: center;
+}
+#zone_box{
+width:85%;
+margin:auto;
+margin-top:100px;
+border-top:0.5px solid gray ;
+}
+#zone{
+    display:flex;
+}
+#zone>div{
+    width:33.33%;
+}
+#zone>div>img{
+    width:100%;
+}
+#youth_store{
+    width:85%;
+    margin:auto;
+    margin-top:100px;
+    border-top:0.5px solid gray;
+}
+#youth>img{
+    width:100%
+}
+#trend_down{
+    margin-top:50px;
+
 }
