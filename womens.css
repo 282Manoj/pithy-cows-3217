@@ -113,3 +113,13 @@ border-top:0.5px solid gray ;
 #trend_down{
     margin-top:50px;
 }
+#gift{
+    width:85%;
+    margin:auto;
+    margin-top:100px;
+    border-top:0.5px solid gray;
+    margin-bottom:20px;
+}
+#gift_zone>img{
+    width:100%;
+}
