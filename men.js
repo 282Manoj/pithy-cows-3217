@@ -22,3 +22,8 @@ button[1].addEventListener("click",function(){
   }
   img.src=imgArray[imgNum];
 })
+let div1=document.getElementById("img1");
+console.log(div1);
+div1.addEventListener("click",function(){
+  window.location.href="mensproduct.html";
+})
