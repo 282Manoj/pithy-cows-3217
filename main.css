@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #222;
+}
+.flex {
+  display: flex;
+}
+
+/* ************************************************************************************************************************ */
+/* -----navigation-bar CSS----- */
+/* ************************************************************************************************************************ */
+
+
+.nav {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+.black-container .white-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.white-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(249, 249, 249);
+}
+.nav .black-container,
+.white-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4px 0;
+  transition: all 0.3s ease-in-out;
+}
+.white-left-menu{
+  display: flex;
+  flex-wrap: wrap;
+}
+.white-left-menu a {
+  color: rgb(0, 0, 0);
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.white-right-menu a {
+  color: rgb(0, 0, 0);
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.black-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+}
+.black-right-menu li a {
+  color: white;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+  font-size: 12px;
+  line-height: 1.75px;
+  /* letter-spacing: 2px; */
+}
+.black-left-menu li {
+  color: white;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.black-container a,
+li:hover {
+  cursor: pointer;
+}
+.white-left-menu li {
+  color: black;
+  padding: 5px 15px;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.white-right-menu li {
+  color: black;
+  padding: 5px 15px;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+#search {
+  padding: 7px;
+  width: 115%;
+  border: none;
+  background-color: rgb(236, 236, 236);
+}
+
+/* ************************************************************************************************************************ */
+/* -----women,men,girl,boys-banner CSS----- */
+/* ************************************************************************************************************************ */
+#main-banner-container {
+  padding: 3%;
+  margin-top: 24px;
+}
+.flexi{
+  width: 100%;border: 1px solid white;display: grid;
+  margin-top: 100px;grid-template-columns: repeat(4, 1fr)
+			;grid-template-rows: 510px;grid-gap: 10px;
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+  #main-banner-container{
+    margin-top: 100px;
+    padding: 10px;
+    /* margin: auto; */
+  }
+  .flexi {
+    
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 510px;
+    grid-gap: 60px;
+  }
+  #subscription-container{
+    display: block;
+  }
+  #subscription-container div{
+    margin: 30px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+  #main-banner-container{
+    margin-top: 160px;
+    padding: 10px;
+    
+  }
+
+  .flexi {
+    
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 510px;
+    grid-gap: 60px;
+  }
+
+  .black-container{display:none;}
+
+  .list-container{display: none;}
+
+  #subscription-container{
+    display: block;
+  }
+  #subscription-container div{
+    margin: 20px;
+  }
+  #subscription-container img{
+    width: 260px;height: 60px;
+  }
+}
+#main-banner-container img {
+  height: 510px;
+  width: 330px;
+}
+#main-banner-container img:hover {
+  cursor: pointer;
+}
+
+.btn {
+ width: 95%;
+ margin-left: 7px;
+ background-color: white;
+ color: rgb(33, 33, 233);
+ border: 1px solid rgb(231, 231, 231);
+ padding: 10px;
+ font-size: 17px;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+}
+
+
+/* ************************************************************************************************************************ */
+/* -----footer- CSS----- */
+/* ************************************************************************************************************************ */
+#footerContainer {
+  position: fixed;
+  background-color: rgb(255, 204, 255);
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  
+}
+footer  hr {
+  max-width: 100%;
+  margin: auto;
+  border: 1px solid rgb(235, 235, 235);
+  margin-top:5%
+}
+div#subscription-container\ flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+/* subscribe-form-css  */
+#subscription-container{
+  display: flex;
+  justify-content: space-around;
+  padding-top:1%;
+}
+.input-sub-box,
+.btn-sub-box {
+  padding: 10px;
+  
+}
+.input-sub-box {
+  width: 70%;
+  background-color: rgb(240, 240, 240);
+  border: none;
+}
+.btn-sub-box {
+  background-color: black;
+  color: white;
+}
+/* list of items css  */
+.list-up-div {
+  justify-content: space-around;
+  font-size: 14px;
+  color: rgb(109, 109, 109);
+  line-height: 30px;
+}
+.list-down-div {
+  margin-top: 20px;
+  justify-content: space-evenly;
+  font-size: 14px;
+  color: rgb(109, 109, 109);
+  line-height: 30px;
+}
+.list-container b {
+  color: black;
+}
+.list-container {
+  padding: 50px;
+}
+
+/* footer banner css  */
+.social {
+  justify-content: space-around;
+  align-items: center;
+}
+.social > i {
+  font-size: 20px;
+}
+
+/* copyright-div-css  */
+#copyright-div {
+  margin-left: 150px;
+  font-size: 13px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+
+/* Css part for SignUp pop-Up div  */
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+.model{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 650px;
+  max-width: 80%;
+}
+.model.active{
+transform: translate(-50%, -50%) scale(1);
+}
+
+.model-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.model-header .title{
+  font-size:  1.25rem;
+  font-weight: bold;
+}
+
+.model-header  .close-botton {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.model-body{
+  padding:  15px 25px;
+}
+
+#overlay{
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.5);
+  transition: 200ms ease-in-out;
+  pointer-events: none;
+}
+
+#overlay.active{
+  opacity: 1;
+  pointer-events: all;
+}
+
+#signUp-form-div {
+  padding: 10px;
+}
+#signUp-form-div input {
+  margin-left: 5px;
+  width: 95%;
+  padding: 7px;
+  margin-top: 5px;
+  border: 2px solid rgb(2, 3, 99);
+}
+
+#register{
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(0, 0, 131);
+  color: #fff;
+  width: 80%;
+
+}
+
+#logIn-form-div{
+  padding: 24px;
+}
+
+#logIn-form-div input {
+  margin-left: 5px;
+  width: 95%;
+  padding: 7px;
+  margin-top: 5px;
+  border: 2px solid rgb(2, 3, 99);
+}
+
+#register{
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(0, 0, 131);
+  color: #fff;
+  width: 80%;
+
+}
