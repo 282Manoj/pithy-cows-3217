@@ -2,7 +2,7 @@ let totalCartValue = 0;
 let totalItem = 0;
 let estimatedAmt = 0;
 
-let cartdata = JSON.parse(localStorage.getItem("productcart")) || [];
+let cartdata = JSON.parse(localStorage.getItem("items")) || [];
 display(cartdata);
 checkout(cartdata);
 
@@ -22,13 +22,13 @@ function display(cartdata) {
     let box1 = document.createElement("div");
     box1.setAttribute("id", "box1");
     let proImg = document.createElement("img");
-    proImg.src=elem.image_url;
+    proImg.src=elem.imageURL;
     box1.append(proImg);
 
     let box2 = document.createElement("div");
     box2.setAttribute("id", "box2");
     let proName = document.createElement("p");
-    proName.innerText = elem.name;
+    proName.innerText = elem.productName;
 
     let proPrice = document.createElement("p");
     proPrice.innerText = "Rs. " + elem.price;
@@ -47,12 +47,12 @@ function display(cartdata) {
     let counter = 1;
     inc.addEventListener("click", function () {
       counter++;
-      localStorage.setItem(elem.name, counter);
+      localStorage.setItem(elem.productName, counter);
       subCartTotal = x * counter;
       td4.innerText = subCartTotal + " " + "Rs.";
       window.location.reload();
     });
-    counter = localStorage.getItem(elem.name);
+    counter = localStorage.getItem(elem.productName);
     // inc.addEventListener("click", function () {
     //     let y=counter++;
     //     localStorage.setItem("counter",y);
@@ -63,10 +63,10 @@ function display(cartdata) {
 
     let num = document.createElement("h6");
     num.setAttribute("id", "number");
-    if (localStorage.getItem(elem.name) == null) {
+    if (localStorage.getItem(elem.productName) == null) {
       num.innerText = 1;
     } else {
-      num.innerText = localStorage.getItem(elem.name);
+      num.innerText = localStorage.getItem(elem.productName);
     }
 
     let dec = document.createElement("button");
@@ -75,7 +75,7 @@ function display(cartdata) {
     dec.addEventListener("click", function () {
       if (counter > 1) {
         counter--;
-        localStorage.setItem(elem.name, counter);
+        localStorage.setItem(elem.productName, counter);
         window.location.reload();
       }
     });
@@ -110,7 +110,7 @@ function display(cartdata) {
       '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ2qxxrocB2XyYTstDgPUqe1pJ2i1ZbGD0qA&usqp=CAU"width="15%" height="15%"\background-color=transaparent">';
     td5.addEventListener("click", function () {
       deleteItem(index);
-      localStorage.setItem(elem.name, 1);
+      localStorage.setItem(elem.productName, 1);
       window.location.reload();
     });
 
@@ -126,7 +126,7 @@ function display(cartdata) {
 // console.log(cartdata);
 function deleteItem(index) {
   cartdata.splice(index, 1);
-  localStorage.setItem("buyCartData", JSON.stringify(cartdata));
+  localStorage.setItem("items", JSON.stringify(cartdata));
   window.location.reload();
 }
 
@@ -206,5 +206,5 @@ function apply_coupon() {
 
 document.querySelector("#finalpay").addEventListener("click", function () {
   localStorage.setItem("last_total_to_pay", totalCartValue);
-  location.href = "payment.html";
+  window.location.href = "payment.html";
 });

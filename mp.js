@@ -290,4 +290,5 @@ function addtoCart(data) {
   console.log(user_data);
   user_data.push(data);
   localStorage.setItem("items", JSON.stringify(user_data));
+  alert("Item added to cart")
 }

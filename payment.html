@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        #shipAdd{
+            border: 2px solid black;
+            display: flex;
+            width: 100%;
+           padding: 0px 40px;
+        }
+        #right{
+            border: 2px solid red;
+            width: 60%;
+        }
+        #left{
+            border: 2px solid  blue;
+            width: 40%;
+        }
+        #Addr{
+            display: flex;
+            margin: auto;
+            text-align: center;
+            gap: 5%;
+        }
+        #Addr>div{
+            
+            padding:20px;
+            width: 45%;
+            color: rgb(100, 99, 99);
+        }
+        #Addr>div:nth-child(1){
+            border: 3px solid blue;
+        }
+        #Addr>div:nth-child(2){
+            border: 0.1px solid gray;
+           
+        }
+        h2{
+            margin: 10px;
+            color: rgb(36,36,40);
+        }
+        input{
+            width: 500px;
+            height: 50px;
+            padding: 10px;
+            font-size: 17px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+            border: 0.5px solid gray;
+        }
+        label{
+            font-size: 15px;
+            
+        }
+        #state{
+            margin-top: 8px;
+            height: 50px;
+            width: 500px;
+            margin-bottom: 20px;
+        }
+        #Addtype{
+            
+            display: flex;
+        }
+        #Addtype>input{
+            width: 20px;
+        }
+        #Addtype>label{
+            width: 20px;
+            margin-top: 25px;
+            margin-right: 40px; 
+            margin-left: 10px;
+        }
+        #card{
+           
+        }
+       
+​
+        #CorD{
+          
+            display: flex;
+            
+           
+        }
+        #CorD>input{
+            width: 20px;
+        }
+        #CorD>label{
+            width: 100px;
+            margin-top: 25px;
+            margin-right: 40px; 
+            margin-left: 10px;
+        }
+        #ExpCVV{
+            display: flex;
+            gap: 10px;
+        }
+        #cvvin{
+            width: 150px;
+            padding: 15px;
+            margin-top: 8px;
+            
+        }
+        #billAdd{
+            
+            display: block;
+           
+        }
+        #billAdd>div{
+            display: flex;
+            width: 100%;
+        }
+        #billAdd>div>input{
+            width: 30px;
+        }
+        #billAdd>div>label{
+            width: 100%;
+           font-size: 14px;
+            margin-top: 27px;
+            margin-left: 5px;
+        }
+        #cod{
+            display: flex;
+            align-items: center;
+        }
+       #cod>div{
+        margin-left: 10px;
+       }
+        #cod>input{
+            width: 20px;
+       }
+
+        #placeOrder{
+            padding: 20px 25px;
+            color: white;
+            background-color:rgb(48,58,178);
+            width: 250px;
+            font-size: 16px;
+            border: none;
+           margin-left: 70%;
+           border-radius: 5px;
+         
+        }
+        #placeOrder:hover{
+            background-color: rgb(89,97,193);
+        }
+        .subhead{
+            font-size: 20px;
+            font-weight: 530;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="shipAdd">
+        <div id="right">
+            <h2 id="heading">Select a Shipping Method </h2>
+            <div id="Addr">
+                <div>
+                    <h3>Home Delivery</h3>
+                    <p>Get your product delivered to your Home</p>
+                </div>
+                <div>
+                    <h3>Click & Collect</h3>
+                    <p>collect your order from a store of your choice</p>
+               
+                </div>
+            </div>
+            <div id="Address">
+                <p class="subhead">Add your Shipping Address</p>
+                <label for="">Full name</label>
+                <br>
+                <input type="text" placeholder="Enter Name">
+                <br>
+                <label for="">Mobile Number</label><br>
+                <input type="text" placeholder="Enter Number">
+                <br>
+                <label for="">Pincode</label><br>
+                <input type="text" placeholder="Enter your pincode "><br>
+               
+                <label for="">State</label> <br>
+                 <select name="" id="state">
+                    <option value="">Select your State</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Maharastra">Maharastra</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Kerla">Kerla</option>
+​
+                 </select>
+                 <br>
+                <label for="">Building name or Number</label> <br>
+                <input type="text" name="" id="" placeholder="Enter Buliding name">
+                <br>
+                <label for="">Street name or Number</label> <br>
+                <input type="text" name="" id="" placeholder="Enter Street name">
+                <br>
+                <label for="">Landmark</label> <br>
+                <input type="text" name="" id="" placeholder="Landmark"> <br>
+                 
+                <label for="">Address Type</label> <br>
+                <div id="Addtype">
+                    <input type="radio" placeholder="Home" />
+                    <label for="">Home</label>
+                    <input type="radio" placeholder="Office" />
+                    <label for="">Office</label>
+                </div>
+            </div>
+​
+            <div id="payment"> <br>
+                <p class="subhead">Select a Payment method</p>
+                <div id="card">
+                  
+                    <label for="">Credit/Debit card</label>
+                    <div id="CorD">
+                        <input type="radio" placeholder="Home" />
+                        <label for="">Credit card</label>
+                        <input type="radio" placeholder="Home" />
+                        <label for="">Debit card</label>
+                    </div>
+                    <label for="">Card Number</label> <br>
+                    <input type="text" placeholder="Enter your 16 Digit Card number">
+                    <br>
+                    <label for="">name on card</label> <br>
+                    <input type="text" placeholder="Name on card">
+                    
+                    <br><!-- //Expiry And CVV -->
+                    <div id="ExpCVV">
+                        <!-- expiry date -->
+​
+                        <div>
+                            <label for="">Expiry Date</label>
+                            <br>
+                            <select name="" id="cvvin">
+                                <option value="">MM</option>
+                                <option value="">01</option>
+                                <option value="">02</option>
+                                <option value="">03</option>
+                                <option value="">04</option>
+                                <option value="">05</option>
+                                <option value="">06</option>
+                                <option value="">07</option>
+                                <option value="">08</option>
+                                <option value="">09</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+​
+                            </select>
+                            <select name="" id="cvvin">
+                                <option value="">YYYY</option>
+                                <option value="">2020</option>
+                                <option value="">2021</option>
+                                <option value="">2022</option>
+                                <option value="">2023</option>
+                                <option value="">2024</option>
+                            </select>
+                        </div>
+                        <!-- Enter cvv part -->
+                        <div>
+                            <label for="">CVV</label>
+                            <br>
+                            <input type="text" id="cvvin" placeholder="CVV">
+​
+                        </div>
+                    </div>
+                    <div id="billAdd">
+                        <div>
+                            <input type="checkbox">
+                            <label for="">Save this card for future transaction</label>
+​
+                        </div>
+                        <h3>Billing Address</h3>
+                        <div>
+                            <input type="checkbox">
+                            <label for="">Is billing address the same as shipping address?</label>
+​
+                        </div>
+                        
+​
+                    </div>
+                </div>
+                <div id="cod">
+                    <input type="radio" >
+                    <div>
+                        <img src="https://dd311b21463486cea6e6-ba57f67b7c05f7cbe632f35f74bd7340.ssl.cf3.rackcdn.com/Checkout/order_summary.png" alt="">
+​
+                    </div>
+                    <div>
+                        <p>Cash ON Delivery</p>
+                        <p>+ 49</p>
+                    </div>
+​
+                </div>
+            </div>
+            <button id="placeOrder">Place Your Order</button>
+        </div>
+        <div id="left"></div>
+    </div>
+</body>
+</html>

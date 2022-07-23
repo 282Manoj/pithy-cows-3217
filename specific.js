@@ -43,3 +43,23 @@ let display=(data)=>{
 }
 
 display(data)
+
+document.getElementById("btn").addEventListener("click",function(){
+  
+  // console.log(data);
+  
+  let user_data = JSON.parse(localStorage.getItem("items")) || [];
+  console.log(user_data);
+  user_data.push(specificdata);
+  localStorage.setItem("items", JSON.stringify(user_data));
+  window.location.href="cart.html"
+  
+})
+
+// function addtoCart(data) {
+//   console.log(data);
+//   let user_data = JSON.parse(localStorage.getItem("items")) || [];
+//   console.log(user_data);
+//   user_data.push(data);
+//   localStorage.setItem("items", JSON.stringify(user_data));
+// }
