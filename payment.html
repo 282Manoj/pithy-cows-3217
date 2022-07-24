@@ -11,20 +11,30 @@
             padding: 0%;
             box-sizing: border-box;
             font-family: sans-serif;
+            border: none;
         }
         #shipAdd{
-            border: 2px solid black;
+            /* border: 2px solid black;
+             */
+             box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
             display: flex;
             width: 100%;
            padding: 0px 40px;
         }
         #right{
-            border: 2px solid red;
+            /* border: 2px solid red;
+            
+            */
+            border: none;
+            padding: 7px;
             width: 60%;
+            /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
         }
         #left{
-            border: 2px solid  blue;
+            /* border: 2px solid  blue; */
+            padding: 7px;
             width: 40%;
+            /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
         }
         #Addr{
             display: flex;
@@ -159,6 +169,15 @@
             font-weight: 530;
             margin-top: 30px;
             margin-bottom: 30px;
+        }
+        #left>div>div>img{
+            height: 200px;
+            width: 191px;
+        }
+        #left>div>div{
+            display: flex;
+            justify-content: space-between;
+            padding: 7px;
         }
     </style>
 </head>
@@ -303,9 +322,13 @@
 ​
                 </div>
             </div>
-            <button id="placeOrder">Place Your Order</button>
+            <button  id="placeOrder">Place Your Order</button>
         </div>
         <div id="left"></div>
     </div>
 </body>
 </html>
+
+<script src="payment.js">
+
+</script>
