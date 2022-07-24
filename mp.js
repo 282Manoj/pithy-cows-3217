@@ -41,8 +41,13 @@ var menData = [
     color: "Black",
     category: "Men ",
     sub_category: "Casual Shirt",
+    images: ["https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011450524-Yellow-YELLOW-1000011450524-22062022_01-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011450524-Yellow-YELLOW-1000011450524-22062022_02-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011450524-Yellow-YELLOW-1000011450524-22062022_03-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011450524-Yellow-YELLOW-1000011450524-22062022_04-2100.jpg"
+ ] ,
     imageURL:
-      "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011057499-Black-BLACK-1000011057499-10032022_01-2100.jpg",
+      "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011450524-Yellow-YELLOW-1000011450524-22062022_01-2100.jpg",
     overview:
       "Update your casual wardrobe with this printed casual shirt which has a spread collar, short sleeves, and straight hemline.",
   },
@@ -53,8 +58,13 @@ var menData = [
     color: "Blue ",
     category: "Men ",
     sub_category: "Casual Shirt",
+    images: ["https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358668-Grey-GREY-1000011358668-27062022_01-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358668-Grey-GREY-1000011358668-27062022_02-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358668-Grey-GREY-1000011358668-27062022_03-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358668-Grey-GREY-1000011358668-27062022_06-2100.jpg"
+ ] ,
     imageURL:
-      "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011075994-Blue-LIGHTBLUE-1000011075994-22022022_01-2100.jpg",
+      "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358668-Grey-GREY-1000011358668-27062022_01-2100.jpg",
     overview:
       "Amp up your casual collection with this solid casual shirt which has a spread collar, long sleeves with button cuffs, a button placket, and flap pockets.",
   },
@@ -65,6 +75,11 @@ var menData = [
     color: "Multicolour ",
     category: "Men ",
     sub_category: "Casual Shirt",
+    images: ["https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_01-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_02-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_03-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_04-2100.jpg"
+ ] ,
     imageURL:
       "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010346421-Pink-Magenta-1000010346421-8272021_01-2100.jpg",
     overview:
@@ -77,6 +92,11 @@ var menData = [
     color: "Blue ",
     category: "Men ",
     sub_category: "Casual Shirt",
+    images: ["https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_01-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_02-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_03-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_04-2100.jpg"
+ ] ,
     imageURL:
       "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010866316-Blue-NAVY-1000010866316-22122021_01-2100.jpg",
     overview:
@@ -89,6 +109,11 @@ var menData = [
     color: "Black ",
     category: "Men ",
     sub_category: "Casual Shirt",
+    images: ["https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_01-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_02-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_03-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_04-2100.jpg"
+ ] ,
     imageURL:
       "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010806178-Blue-NAVY-1000010806178-15122021_01-2100.jpg",
     overview:
@@ -101,6 +126,11 @@ var menData = [
     color: "Yellow ",
     category: "Men ",
     sub_category: "Casual Shirt",
+    images: ["https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_01-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_02-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_03-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_04-2100.jpg"
+ ] ,
     imageURL:
       "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010833634-Yellow-Yellow-1000010833634-11302021_01-2100.jpg",
     overview:
@@ -113,6 +143,11 @@ var menData = [
     color: "Orange",
     category: "Men ",
     sub_category: "Casual Shirt",
+    images: ["https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_01-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_02-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_03-2100.jpg",
+    "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011358343-Blue-NAVY-1000011358343-27062022_04-2100.jpg"
+ ] ,
     imageURL:
       "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010456050-Orange-Rust-1000010456050-9072021_03-2100.jpg",
     overview:
