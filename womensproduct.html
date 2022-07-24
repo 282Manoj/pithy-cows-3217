@@ -18,8 +18,8 @@
       src="https://kit.fontawesome.com/498dbb26da.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./womensproduct.css" />
-    <!-- <link rel="stylesheet" href="navbar.css"> -->
+    <link rel="stylesheet" href="./mensproduct.css" />
+    <link rel="stylesheet" href="navbar.css">
     
     <title>Top & Tees</title>
   </head>
@@ -27,91 +27,91 @@
   <body>
     <!-- navbar  main  section (importing) -->
     <!-- <div id="navbar"> -->
-    
+      <div  class="navbar"> </div>
 
-    <div id="main_container">
-      <p>
-        <span>Home <i class="fas fa-arrow-right"></i></span>
-        <span>Women <i class="fas fa-arrow-right"></i></span>
-        <span> Tops<i class="fas fa-arrow-right"></i></span>
-        <span>Women Top & Tees <i class="fas fa-arrow-right"></i></span>
-      </p>
-      <h1>Women Top & Tees</h1>
-      </div>
-
-  
-    <div id="second_sec">
-        <div id="sort_sec">
-            <div class="dropdown">
-                <button class="dropbtn">Price</button>
-                <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Type</button>
-                <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Design</button>
-                <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Size</button>
-                <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Color</button>
-                <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                </div>
-            </div>
-           
+      <div id="main_container">
+        <p>
+          <span>Home <i class="fas fa-arrow-right"></i></span>
+          <span>Men <i class="fas fa-arrow-right"></i></span>
+          <span> Tops<i class="fas fa-arrow-right"></i></span>
+          <span> Casual Shirt <i class="fas fa-arrow-right"></i></span>
+        </p>
+        <h1>Women Top & Tees</h1>
         </div>
-    </div>
-
-    <div id="main_container">
-
-      <div id="sorting_and_filter_Div">
-        <select id="sortPriced" onchange="sortbyprice()">
-          <option value="">Sort by Price</option>
-          <!-- <option value="default">Default</option> -->
-          <option value="Low">Low to High</option>
-          <option value="High">High to Low</option>
-        </select>
-      </div>
-
-      <div id="product_append"></div>
-    </div>
-
-    <!-- footer  main  section (importing) -->
-    <div id="footer_container">
-
-
   
-    </div>
+    
+      <div id="second_sec">
+          <div id="sort_sec">
+              <div id="dropdown">
+                  <button id="dropbtn">Price</button>
+                  <div id="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                  </div>
+              </div>
+              <div id="dropdown">
+                  <button id="dropbtn">Type</button>
+                  <div id="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                  </div>
+              </div>
+              <div id="dropdown">
+                  <button id="dropbtn">Design</button>
+                  <div id="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                  </div>
+              </div>
+              <div id="dropdown">
+                  <button id="dropbtn">Size</button>
+                  <div id="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                  </div>
+              </div>
+              <div id="dropdown">
+                  <button id="dropbtn">Color</button>
+                  <div id="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                  </div>
+              </div>
+             
+          </div>
+       </div>
+  
+      <div id="main_container">
+  
+        <div id="sorting_and_filter_Div">
+          <select id="sortPriced" onchange="sortbyprice()">
+            <option value="">Sort by Price</option>
+            <!-- <option value="default">Default</option> -->
+            <option value="Low">Low to High</option>
+            <option value="High">High to Low</option>
+          </select>
+        </div>
+  
+        <div id="product_append"></div>
+      </div>
+  
+      <!-- footer  main  section (importing) -->
+  
+      <div id="footer"></div>
+  
+  
+
   </body>
 </html>
-<script src="./wp.js"></script>
+<script src="./wp.js" type="module"></script>
 
-<script type="module">
-  //importing Nav-bar part
+
+ <!--  //importing Nav-bar part
  /*  import nav from "./components/navbar.js";
   let nav_container = document.getElementById("nav_container");
   nav_container.innerHTML = nav(); */
@@ -129,5 +129,4 @@
   // importing footer part
   /* import footer from "./components/footer.js";
   let footer_container = document.getElementById("footer_container");
-  footer_container.innerHTML = footer(); */
-</script>
+  footer_container.innerHTML = footer(); */ -->
